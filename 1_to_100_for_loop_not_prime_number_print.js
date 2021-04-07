@@ -1,5 +1,4 @@
 
-
 for(var i = 1; i <= 100; i++){
     var check = "prime"
     for(var j = 2; j < i; j++){
