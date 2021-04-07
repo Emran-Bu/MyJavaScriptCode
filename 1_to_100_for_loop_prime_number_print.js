@@ -9,7 +9,7 @@ for (let i = 1; i <= 100; i++) {
         
     }
     // console.log(i+" : "+check);
-    if (check == "not prime") {
+    if (check == "prime") {
         console.log(i);
     }
 }
