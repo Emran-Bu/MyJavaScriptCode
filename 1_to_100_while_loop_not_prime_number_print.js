@@ -8,6 +8,7 @@ while (i <= 100) {
         
         if (i % j == 0) {
             check = "not prime"
+            break;
         }
         j++;
     }
