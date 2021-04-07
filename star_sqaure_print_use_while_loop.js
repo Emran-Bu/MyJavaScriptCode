@@ -1,10 +1,15 @@
 
-let string = ""
+let string = "";
 
-for (let i = 1; i <= 5; i++) {
-    for (let j = 0; j < i; j++) {
-       string+= "*"
+let i = 1;
+while (i <= 5) {
+
+    let j = 0;
+    while (j < i) {
+        string+= "*";
+        j++;
     }
-    string+= "\n"
+    string+= "\n";
+    i++;
 }
-console.log(string)
+console.log(string);
