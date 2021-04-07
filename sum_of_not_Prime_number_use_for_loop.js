@@ -15,4 +15,4 @@ for (let i = 1; i <= 100; i++) {
     }
 
 }
-console.log("The sum of total prime Number:" + sum);
+console.log("The sum of total not prime Number:" + sum);
