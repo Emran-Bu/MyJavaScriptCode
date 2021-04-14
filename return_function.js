@@ -20,6 +20,12 @@ test("Emran", "emran@gmail.com")
 
 //
 
-function name(params) {
-    
+function person(name, email) {
+    return{
+        name : name,
+        email : email
+    }
 }
+
+var p = person("Emran Hasan", "emran@gmail.com")
+console.log(p);
