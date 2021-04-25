@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+</head>
+<body>
+
+    <div class="modal">
+        <h2 style="display:none; top:50px; left:50px;">welcome</h2>
+    </div>
+
+    <div class="btn">
+        <button>modal</button>
+    </div>
+
+    <script>
+       var m = document.querySelector('.modal')
+       var b = document.querySelector('.btn')
+       
+       b.addEventListener("click", function() {
+           m.style.display = "block"
+       })
+       
+       b.addEventListener("click", function() {
+           m.style.display = "block"
+       })
+    </script>
+    
+</body>
+</html>
