@@ -8,12 +8,12 @@
 </head>
 <body>
 
-    <div class="modal">
-        <h2 style="display:none; top:50px; left:50px;">welcome</h2>
+    <div class="modal" style="display: none; position:fixed">
+        <h2 style="top:50px; left:50px;">welcome</h2>
     </div>
 
-    <div class="btn">
-        <button>modal</button>
+    <div>
+        <button class="btn" onclick="on()">modal</button>
     </div>
 
     <script>
@@ -23,11 +23,15 @@
        b.addEventListener("click", function() {
            m.style.display = "block"
        })
-       
-       b.addEventListener("click", function() {
-           m.style.display = "block"
+    //    b.style.color = "red"
+    //    function on() {
+    //        m.style.display = "block"
+    //    }
+       m.addEventListener("click", function() {
+           m.style.display = "none"
        })
     </script>
     
 </body>
 </html>
+
